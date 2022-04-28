@@ -1,0 +1,71 @@
+.me-menu{
+    margin-right: 200px;
+}
+
+.w-logo-shop{
+    max-width: 300px;
+}
+
+.bg{
+    background-color: #e890ab !important;
+}
+
+.nav-item:hover {
+    border-radius: 30px;
+    color: black;
+    background-color: aqua;
+}
+
+.btn-outline-success{
+    border-radius: 30px;
+    color: black;
+}
+
+.btn-outline-success:hover{
+    border-radius: 30px;
+    color: black;
+    background-color: aqua;
+}
+
+
+@media (max-width: 1399px) {
+    .me-menu{
+        margin-right: 80px;
+    }
+}
+
+@media (max-width: 1199px) {
+    .me-menu{
+        margin-right: 10px;
+    }
+}
+
+@media (min-width: 991px) {
+    .me-menu{
+        display: block;
+    }
+
+    .me-menu-repsonsive{
+        display: none;
+    }
+}
+
+@media (max-width: 991px) {
+    .w-logo-shop{
+        max-width: 200px;
+    }
+
+    .me-menu{
+        display: none;
+    }
+
+    .me-menu-repsonsive{
+        display: block;
+    }
+
+}
+
+
+
+
+

@@ -1,0 +1,68 @@
+.mt-top{
+    margin-top: 100px;
+}
+
+.div-title {
+    position: relative;
+}
+
+.div-title hr{
+    height: 2px;
+    background-color: #000000;
+}
+
+.card{
+    width: 18rem !important;
+}
+
+.title-latest-product{
+    height: 50px;
+    width: 300px;
+    position: absolute;
+    top: -30px;
+    right: 350px;
+    border: 2px solid #000000;
+    border-radius: 30px;
+    z-index: 1000;
+    background-color: #ffffff;
+}
+
+.price{
+    opacity: 0.6;
+    font-weight: bold;
+    color: red;
+}
+
+.price:hover{
+    opacity: 1;
+    font-weight: bold;
+    color: red;
+    transition: 1s;
+}
+
+.card-img-top{
+    height: 250px;
+}
+
+.card-text{
+    font-size: 16px;
+    color: black;
+    height: 100px;
+    font-weight: 600;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+}
+
+.card-title{
+    font-size: 1.25rem;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+}
+
+
+
+

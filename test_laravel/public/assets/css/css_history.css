@@ -1,0 +1,12 @@
+.font-history{
+    font-family: "Times New Roman";
+}
+
+.font-history h1{
+    font-weight: bolder;
+}
+
+.container-history{
+    max-width: 1000px;
+    line-height: 35px;
+}

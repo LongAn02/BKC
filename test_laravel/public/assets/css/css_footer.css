@@ -1,0 +1,53 @@
+#menu-footer li{
+    display :inline-block;
+    margin-right: 15px;
+}
+
+#menu-footer a{
+    font-size: 20px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#menu-footer i{
+    width: 50px;
+}
+
+#menu-footer a:hover{
+    color: #1426c7;
+    transition: 1s;
+}
+
+.text-footer{
+    font-family: "Bruѕh Sᴄript MT";
+    font-style: italic;
+    color: #ffffff;
+}
+
+.text-footer h1{
+    font-weight: bold;
+}
+
+.text-footer i{
+    font-size: 20px;
+}
+
+.text-footer p{
+    line-height: 2.5;
+    font-size: 20px;
+}
+
+.font-s-text{
+    font-size: 20px;
+}
+
+.text-footer span{
+    font-size: 35px;
+}
+
+@media (max-width: 767px) {
+    #menu-icon-footer {
+        display: none !important;
+    }
+}
+
